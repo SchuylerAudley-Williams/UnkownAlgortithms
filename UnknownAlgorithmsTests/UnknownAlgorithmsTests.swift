@@ -27,5 +27,25 @@ class UnknownAlgorithmsTests: XCTestCase {
         //assert
         XCTAssertEqual(unknownAlgorithms.sumFirstLast(array: array), expected)
     }
+    
+    func testSumFirstLastWithArrayLength1ReturnsDoubleSingleElement() {
+        //arrange
+        let unknownAlgorithms = UnknownAlgorithms()
+        //act
+        let array = [2]
+        let expected = 4
+        //assert
+        XCTAssertEqual(unknownAlgorithms.sumFirstLast(array: array), expected)
+    }
+    
+    func testFindModeReturnsModeOfSortedArrayOfIntegers() {
+        //arrange
+        let unknownAlgorithms = UnknownAlgorithms()
+        //act
+        let array = [1,4,4,2,7,7,7,34,234,657,4333,4333,4333,4333]
+        let expected = 4333
+        //assert
+        XCTAssertEqual(unknownAlgorithms.findMode(array: array), expected)
+    }
 
 }
