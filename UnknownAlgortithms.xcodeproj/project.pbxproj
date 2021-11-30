@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3B056ACE27562CAA00F80DD7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056ACD27562CAA00F80DD7 /* main.swift */; };
-		3B056AFC27562E5A00F80DD7 /* UnkownAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056AFB27562E5A00F80DD7 /* UnkownAlgorithms.swift */; };
+		3B056AFC27562E5A00F80DD7 /* UnknownAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056AFB27562E5A00F80DD7 /* UnknownAlgorithms.swift */; };
 		3B056B292756322B00F80DD7 /* UnknownAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056B282756322B00F80DD7 /* UnknownAlgorithmsTests.swift */; };
-		3B056B302756328D00F80DD7 /* UnkownAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056AFB27562E5A00F80DD7 /* UnkownAlgorithms.swift */; };
+		3B056B302756328D00F80DD7 /* UnknownAlgorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B056AFB27562E5A00F80DD7 /* UnknownAlgorithms.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		3B056ACA27562CAA00F80DD7 /* UnkownAlgortithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnkownAlgortithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B056ACD27562CAA00F80DD7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3B056AFB27562E5A00F80DD7 /* UnkownAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnkownAlgorithms.swift; sourceTree = "<group>"; };
+		3B056AFB27562E5A00F80DD7 /* UnknownAlgorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownAlgorithms.swift; sourceTree = "<group>"; };
 		3B056B262756322B00F80DD7 /* UnknownAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnknownAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B056B282756322B00F80DD7 /* UnknownAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownAlgorithmsTests.swift; sourceTree = "<group>"; };
 		3B056B2A2756322B00F80DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		3B056AC127562CAA00F80DD7 = {
 			isa = PBXGroup;
 			children = (
-				3B056ACC27562CAA00F80DD7 /* UnkownAlgortithms */,
+				3B056ACC27562CAA00F80DD7 /* UnknownAlgortithms */,
 				3B056B272756322B00F80DD7 /* UnknownAlgorithmsTests */,
 				3B056ACB27562CAA00F80DD7 /* Products */,
 			);
@@ -70,13 +70,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B056ACC27562CAA00F80DD7 /* UnkownAlgortithms */ = {
+		3B056ACC27562CAA00F80DD7 /* UnknownAlgortithms */ = {
 			isa = PBXGroup;
 			children = (
 				3B056ACD27562CAA00F80DD7 /* main.swift */,
-				3B056AFB27562E5A00F80DD7 /* UnkownAlgorithms.swift */,
+				3B056AFB27562E5A00F80DD7 /* UnknownAlgorithms.swift */,
 			);
-			path = UnkownAlgortithms;
+			path = UnknownAlgortithms;
 			sourceTree = "<group>";
 		};
 		3B056B272756322B00F80DD7 /* UnknownAlgorithmsTests */ = {
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B056AC527562CAA00F80DD7 /* Build configuration list for PBXProject "UnkownAlgortithms" */;
+			buildConfigurationList = 3B056AC527562CAA00F80DD7 /* Build configuration list for PBXProject "UnknownAlgortithms" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -176,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B056AFC27562E5A00F80DD7 /* UnkownAlgorithms.swift in Sources */,
+				3B056AFC27562E5A00F80DD7 /* UnknownAlgorithms.swift in Sources */,
 				3B056ACE27562CAA00F80DD7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B056B292756322B00F80DD7 /* UnknownAlgorithmsTests.swift in Sources */,
-				3B056B302756328D00F80DD7 /* UnkownAlgorithms.swift in Sources */,
+				3B056B302756328D00F80DD7 /* UnknownAlgorithms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B056AC527562CAA00F80DD7 /* Build configuration list for PBXProject "UnkownAlgortithms" */ = {
+		3B056AC527562CAA00F80DD7 /* Build configuration list for PBXProject "UnknownAlgortithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B056ACF27562CAA00F80DD7 /* Debug */,

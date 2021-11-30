@@ -42,8 +42,8 @@ class UnknownAlgorithmsTests: XCTestCase {
         //arrange
         let unknownAlgorithms = UnknownAlgorithms()
         //act
-        let array = [1,4,4,2,7,7,7,34,234,657,4333,4333,4333,4333]
-        let expected = 4333
+        let array = [1,4,4,4,4,7,7,7]
+        let expected = 4
         //assert
         XCTAssertEqual(unknownAlgorithms.findMode(array: array), expected)
     }

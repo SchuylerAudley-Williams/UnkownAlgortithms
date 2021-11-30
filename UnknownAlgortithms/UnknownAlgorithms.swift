@@ -24,7 +24,7 @@ class UnknownAlgorithms {
         var counts = [Int]()
         var count = 1
         var lastInstances = [Int]()
-        for i in 0..<array.count {
+        for i in 0..<array.count-1 {
             let current = array[i]
             if current == array[i+1] {
                 count += 1
@@ -34,6 +34,13 @@ class UnknownAlgorithms {
                 count = 1
             }
         }
-        return 1
+        
+        var largest = 0
+        for i in 0..<counts.count-1 {
+            if counts[i] > counts[i+1] {
+                largest = i
+            }
+        }
+        return array[lastInstances[largest]]
     }
 }
